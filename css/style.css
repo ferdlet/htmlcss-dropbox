@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif;
 }
 
 .clearfix::after {
@@ -164,6 +164,7 @@ main {
 .box {
     width: calc(100% / 3 - 20px);
     float: left;
+    height: 900px;
     border: 2px solid lightgray;
 }
 
@@ -219,6 +220,25 @@ main {
 .elenco-funzioni ul li i {
     color: #0061ff;
 }
+
+.box-team {
+    border: 2px solid lightgray;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.box-team .box-main {
+    position: relative;
+}
+
+.box-main a {
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
+
+
 
 
 
