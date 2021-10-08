@@ -27,11 +27,12 @@ header {
     left: 0;
     z-index: 999;
     background-color: white;
+    border-bottom: 1px solid lightgray;
 }
 
 .header-left {
     float: left;
-    line-height: 70px;
+    line-height: 68px;
 }
 
 header nav ul li {
@@ -39,10 +40,24 @@ header nav ul li {
     margin: 0 10px;
 }
 
+header nav ul li:hover {
+    border-bottom: 2px solid black;
+}
+
 header nav ul li a {
     list-style: none;
     text-decoration: none;
     color: black;
+    display: inline-block;
+}
+
+.header-right nav ul li.container-button a {
+    display: inline;
+}
+
+header nav ul li.logo, 
+.header-right nav ul li.container-button {
+    border-bottom: none;  
 }
 
 .header-left nav {
@@ -50,12 +65,12 @@ header nav ul li a {
 }
 
 .header-left img {
-    vertical-align: middle;
+    vertical-align: text-bottom;
 }
 
 .header-right {
     float: right;
-    line-height: 70px;
+    line-height: 68px;
 }
 
 .header-right nav {
@@ -164,7 +179,7 @@ main {
 .box {
     width: calc(100% / 3 - 20px);
     float: left;
-    height: 900px;
+    height: 1000px;
     border: 2px solid lightgray;
 }
 
@@ -232,7 +247,7 @@ main {
     position: relative;
 }
 
-.box-main a {
+.box-team .box-main a {
     position: absolute;
     right: 30px;
     top: 10px;
