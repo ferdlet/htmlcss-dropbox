@@ -279,8 +279,34 @@ main {
     border: 1px solid black;
 } 
 
+.section2 {
+    margin-bottom: 50px;
+}
 
 /* ****** Section 3 ****** */
+.box-section3 {
+    float: left;
+    width: calc(100% / 3 - 30px);
+    margin: 30px 0;
+}
+
+.central-section3 {
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.box-section3 img {
+    width: 100%;
+}
+
+.box-section3 h3 {
+    margin: 20px 0;
+}
+
+/* ***** Section 4 ***** */
+
+
+
 
 
 
