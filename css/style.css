@@ -361,12 +361,47 @@ main {
 }
 
 .box-section5 img {
+    filter: invert(1);
     width: 60%;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
 }
+
+/* ***** colori box section 5 ***** */
+.box-green {
+    background-color: lightgreen;
+}
+
+.box-wine {
+    background-color: #58181F;
+}
+
+.box-lightblue {
+    background-color: rgb(3, 172, 228);
+}
+
+.box-red {
+    background-color: red;
+}
+
+.box-lightskyblue {
+    background-color: lightskyblue;
+}
+
+.box-blue {
+    background-color: blue;
+}
+
+.box-yellow {
+    background-color: yellow;
+}
+
+.box-section5:hover {
+    border: 10px solid rgba(0, 0, 0, 0.42;
+}
+
 
 
 
