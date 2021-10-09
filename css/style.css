@@ -351,7 +351,23 @@ main {
     width: calc(100% - 1000px);
     display: inline-block;
     background-color: lightgray;
+    padding: 40px;
 }
+
+.container-central-section5 img {
+    width: 30%;
+}
+
+.container-central-section5 .separatore { 
+    width: 20%;
+    margin: 30px 0;
+    border-bottom: 2px solid gray;
+}
+
+.container-central-section5 .autore { 
+    margin-top: 40px;
+}
+
 
 .box-section5 {
     width: 250px;
@@ -367,6 +383,10 @@ main {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+}
+
+.box-section5:hover {
+    border: 10px solid rgba(0, 0, 0, 0.42);
 }
 
 /* ***** colori box section 5 ***** */
@@ -398,16 +418,41 @@ main {
     background-color: yellow;
 }
 
-.box-section5:hover {
-    border: 10px solid rgba(0, 0, 0, 0.42;
+/* ****** Section 6 ******  */
+.container-section6 {
+    width: 100%;
+    height: 300px;
+    background-color: lightskyblue;
+    padding: 90px 250px;
 }
 
+.container-title-section6 h2 {
+    color: #58181F;
+    font-size: 40px;
+}
 
+.container-title-section6, .container-button-section6 {
+    float: left;
+    width: 35%;
+}
+
+.container-title-section6 {
+    margin-right: 30%;
+}
+
+.container-button-section6 .button {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 40px;
+}
+
+.container-section6 {
+    margin-bottom: 80px;
+}
 
 
 
 /* ***** debug ***** */
-.debug main {
-    /* background-color: blue; */
-    /* height: 500px; */
-}
