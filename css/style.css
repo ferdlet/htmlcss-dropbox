@@ -86,7 +86,7 @@ header nav ul li.logo,
 /* ****** Jumbotron ****** */
 #jumbotron {
     background-color: lightskyblue;
-    height: 420px;
+    height: 500px;
     width: 100%;
     padding-top: 50px;
     padding-left: 10%;
@@ -95,12 +95,17 @@ header nav ul li.logo,
 }
 
 #jumbotron h1 {
-    font-size: 50px;
+    font-size: 60px;
+}
+
+.container-main-jumbo {
+    width: 90%;
+    max-width: 1320px;
 }
 
 .container-jumbo {
     float: left;
-    width: 40%;
+    width: 30%;
 }
 
 .container-jumbo p {
@@ -115,14 +120,14 @@ header nav ul li.logo,
 }
 
 .container-jumbo i {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
 }
 
 .jumboimg {
     margin-top: 20px;
-    width: 60%;
-    float: left;
+    width: 50%;
+    float: right;
 }
 
 .jumboimg img {
@@ -213,8 +218,27 @@ main {
     margin-bottom: 20px;
 }
 
+.rigo i {
+    vertical-align: text-top;
+}    
+
+.rigo {
+    margin-bottom: 20px;
+}
+
 .box-main a, .box-main p {
     margin: 20px 0;
+}
+
+.box-main .rigo p {
+    display: inline-block;
+    width: calc(100% - 40px);
+    vertical-align: text-top;
+    margin: 0;
+}
+
+.box-main i{
+    margin-right: 5px;
 }
 
 .box-main .separatore {
@@ -485,6 +509,11 @@ main {
 .section7 ul li:hover .answer {
     display: block;
 }
+
+.section7 ul li:hover .question i {
+    transform: rotate(180deg);
+}
+
 
 
 
