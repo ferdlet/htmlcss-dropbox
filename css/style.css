@@ -590,7 +590,7 @@ footer {
 
 .col-footer {
     float: left;
-    width: calc(80% / 5 - 40px);
+    width: calc(100% / 5 - 40px);
     margin-right: 40px;
 }
 
