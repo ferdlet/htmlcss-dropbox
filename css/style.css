@@ -32,7 +32,7 @@ header {
 
 .header-left {
     float: left;
-    line-height: 68px;
+    line-height: 67px;
 }
 
 header nav ul li {
@@ -41,7 +41,7 @@ header nav ul li {
 }
 
 header nav ul li:hover {
-    border-bottom: 2px solid black;
+    border-bottom: 3px solid black;
 }
 
 header nav ul li a {
@@ -313,7 +313,7 @@ main {
 /* ***** Section 4 ***** */
 
 .container-top-section4 {
-    width: 30%;   
+    width: 30%;
 }
 
 .container-top-section4 p {
@@ -323,9 +323,9 @@ main {
 /* ****** Section 5 ****** */
 
 .container-section5 {
-    height: 500px;
-    width: 100vw;
-    max-width:100%;
+    height: 30vw;
+    /* width: 100%; */
+    /* max-width:100%; */
 }
 
 .container-left-section5 {
@@ -336,42 +336,42 @@ main {
     float: right;
 }
 
-.container-left-section5, 
-.container-central-section5, 
+.container-left-section5,
+.container-central-section5,
 .container-right-section5 {
     height: 100%;
 }
 
-.container-left-section5, 
+.container-left-section5,
 .container-right-section5 {
-    width: 500px;
+    width: 30vw;
 }
 
 .container-central-section5 {
-    width: calc(100% - 1000px);
+    width: calc(100% - 60vw);
     display: inline-block;
     background-color: lightgray;
     padding: 40px;
+    overflow: hidden;
 }
 
 .container-central-section5 img {
     width: 30%;
 }
 
-.container-central-section5 .separatore { 
+.container-central-section5 .separatore {
     width: 20%;
     margin: 30px 0;
     border-bottom: 2px solid gray;
 }
 
-.container-central-section5 .autore { 
+.container-central-section5 .autore {
     margin-top: 40px;
 }
 
-
 .box-section5 {
-    width: 250px;
-    height: 250px;
+    width: 15vw;
+    height: 15vw;
     float: left;
     position: relative;
 }
@@ -461,6 +461,8 @@ main {
 .section7 ul li {
     list-style: none;
     border-top: 2px solid lightgray;
+}
+.section7 ul .last-faq {
     border-bottom: 2px solid lightgray;
 }
 
@@ -492,7 +494,7 @@ footer {
     margin-top: 80px;
     background-color: black;
     color: white;
-    
+
 }
 
 .container-footer {
@@ -512,13 +514,13 @@ footer {
 
 .col-footer h3 {
     margin-bottom: 15px;
-}    
+}
 
 .col-footer ul li {
     list-style: none;
     font-size: 12px;
     line-height: 2;
-}    
+}
 
 .col-footer ul li a {
     color: white;
