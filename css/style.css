@@ -83,6 +83,49 @@ header nav ul li.logo,
     color: white;
 }
 
+.sottomenu {
+    display: none;
+    border-bottom: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+}
+
+.sottomenu ul li {
+    display: block;
+    margin: 0;
+    padding: 0 10px;
+}
+
+.sottomenu ul li a {
+    display: block;
+}
+
+
+.container-sottomenu:hover {
+    position: relative;
+    border-bottom: none;
+}
+
+.container-sottomenu:hover .sottomenu {
+    display: block;
+    position: absolute;
+    background-color: white;
+    right: 0; 
+    z-index: 999;
+    width: 10vw;
+    line-height: 5;
+}
+
+.container-sottomenu:hover .sottomenu ul li {
+    border-bottom: none;
+}
+
+.sottomenu ul li:hover {
+    background-color: lightgray;
+}
+
+
+
 /* ****** Jumbotron ****** */
 #jumbotron {
     background-color: lightskyblue;
@@ -541,9 +584,14 @@ footer {
     padding-bottom: 100px;
 }
 
+.container-col-footer {
+    margin: 0 auto;
+}
+
 .col-footer {
     float: left;
-    width: calc(80% / 5 - 15px);
+    width: calc(80% / 5 - 40px);
+    margin-right: 40px;
 }
 
 .col-footer h3 {
@@ -563,7 +611,7 @@ footer {
 
 .container-footer .separatore {
     width: 10%;
-    border-bottom: 2px solid lightgray;
+    border-bottom: 1px solid lightgray;
 }
 
 .container-footer .lingua {
